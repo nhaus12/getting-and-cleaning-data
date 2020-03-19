@@ -2,7 +2,7 @@
 
 ## 1. Data source
 
-The data from which the contents of the included data set (*mean-data-tidy.csv*) are derived comes from the [UCI Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).  
+The data from which the contents of the included data set (*mean-data-tidy.csv* and *mean-data-tidy.txt*) are derived comes from the [UCI Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).  
 
 ## 2. Variables and transformation
 

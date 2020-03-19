@@ -54,4 +54,5 @@ names(meanData)[1:2] <- c("subjectId", "activity")
 
 meanData <- arrange(meanData, subjectId, activity)
 
-write.csv(meanData, "./mean-data-tidy.csv")
+#write.csv(meanData, "./mean-data-tidy.csv")
+write.table(meanData, file="./mean-data-tidy.txt", row.name=FALSE)

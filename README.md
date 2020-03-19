@@ -4,8 +4,8 @@
 
 The following files are included in this repo:
 * *CodeBook.md*;
-* *mean-data-tidy.csv*, the derived data set, the contents of which are described in *CodeBook.md*; and
-* *run_analysis.R*, an R script which generates the tidy data set *mean-data-tidy.csv*.
+* *mean-data-tidy.csv* and *mean-data-tidy.txt*, the derived data set, the contents of which are described in *CodeBook.md* in the CSV and text formats, respectively; and
+* *run_analysis.R*, an R script which generates the tidy data set (*mean-data-tidy.csv* and *mean-data-tidy.txt*).
 
 ## 2. Description of run_analysis.R
 
@@ -26,4 +26,4 @@ The script *run_analysis.R* carries out the following steps:
   * Create a new data frame consisting of the subject ID numbers, activity names, and measurement data. This is carried out via the *cbind()* function.
 * Generate the tidy data set containing the means of the observed measurement variable values (per subject and per activity):
   * The data set is generated using the *aggregate()* function, where *mean* is the function to be applied, and the means are taken *by* the subjectId and activity variables.
-  * Save the data set to the current directory via the *write.csv()* function.
+  * Save the data set to the current directory via the *write.table()* or *write.csv()* functions.
