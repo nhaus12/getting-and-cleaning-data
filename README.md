@@ -16,6 +16,8 @@ The script *run_analysis.R* uses the following library(ies):
 
 <h3>Overview of script operations</h3>
 
+*This description should be read in conjunction with the comments in the run_analysis.R file.*
+
 The script *run_analysis.R* carries out the following steps:
 * Load the test, train, and features data into R, as well as the activity labels, from the source data set.
 * Extract and merge all data into a single data frame:
